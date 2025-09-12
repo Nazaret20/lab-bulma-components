@@ -1,0 +1,13 @@
+.label{
+    font-size: 15px;
+    text-align: left;
+    display: block;
+}
+
+.field{
+    display: block;
+    margin-left: 30px;
+    width: 30%;
+    border-radius: 5px;
+    border-color: rgba(207, 208, 209, 0.507);
+}
