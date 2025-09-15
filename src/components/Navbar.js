@@ -1,3 +1,4 @@
+import CoolButton from "./CoolButton";
 import "./navbar.css";
 
 function Navbar() {
@@ -42,23 +43,8 @@ function Navbar() {
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="field is-grouped">
-              <p class="control">
-                <a
-                  class="button has-background-info"
-                  href="https://github.com/jgthms/bulma/releases/download/1.0.2/bulma-1.0.2.zip"
-                >
-                  <span> Login</span>
-                </a>
-              </p>
-              <p class="control">
-                <a
-                  class="button is-primary"
-                  href="https://github.com/jgthms/bulma/releases/download/1.0.2/bulma-1.0.2.zip"
-                  id="td-td-button"
-                >
-                  <span>Signup</span>
-                </a>
-              </p>
+              <CoolButton isSmall isDanger isRounded>Login</CoolButton>
+              <CoolButton isSmall isSuccess>Signup</CoolButton>
             </div>
           </div>
         </div>
